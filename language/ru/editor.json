@@ -1,0 +1,174 @@
+{
+  "editPropsDlg": {
+    "cancelBtnText": "Отменить",
+    "title": "Редактировать"
+  },
+  "paperOptions": {
+    "wall-sel-min": "Адаптивность объектов на стене",
+    "static-real-step": "Количество пикселей на единицу размера сетки",
+    "grid": "Сетка",
+    "draw-mode": "Режим рисования",
+    "is-fixed": "Зафиксирован",
+    "mesh-step": "Шаг сетки",
+    "width": "Ширина",
+    "height": "Высота"
+  },
+  "tabs": {
+    "title": "Тестовый проект",
+    "cancelBtnText": "Отменить",
+    "delText": "Вы уверены?"
+  },
+  "menu": {
+    "names": {
+      "rooms": "Комнаты",
+      "roomElements": "Элементы комнаты",
+      "doors": "Двери",
+      "windows": "Окна",
+      "technics": "Техника",
+      "furniture": "Мебель",
+      "room": "Стандартная комната",
+      "simple-door": "Дверь",
+      "double-door": "Двойные двери",
+      "sliding-door": "Раздвижные двери",
+      "window": "Окно",
+      "error": "Объект не загружен",
+      "createObjectError": "Объект не загружен"
+    }
+  },
+  "saveDlg": {
+    "title": "Сохранить",
+    "cancelBtnText": "Отмена",
+    "labelText": "Выберите проекты"
+  },
+  "userSettingsDlg": {
+    "title": "Настройки",
+    "dellBtnText": "Удалить",
+    "projectsTittleText": "Мои проекты",
+    "searchText": "Поиск",
+    "deleteAll": "Выделить все",
+    "delete": "Удалить",
+    "nameCol": "Имя",
+    "valCol": "Значение"
+  },
+  "newTabDlg": {
+    "cancelBtnText": "Отмена",
+    "title": "Добавить проект",
+    "widthText": "Ширина",
+    "nameText": "Имя",
+    "heightText": "Высота",
+    "isFixedText": "Зафиксировать",
+    "meshStepText": "Шаг сетки",
+    "static-real-step": "Количество пикселей на единицу размера сетки",
+    "emptyFieldErrorText": "Необходимо ввести имя проекта",
+    "uniqueNameErrorText": "Такое имя уже существует",
+    "wallSelText": "Адаптивность объектов на стене"
+  },
+  "propDlg": {
+    "saveBtnText": "Сохранить",
+    "cancelBtnText": "Отмена",
+    "title": "Свойства",
+    "resetBtnText": "Вернуть"
+  },
+  "authRegDlg": {
+    "regTitle": "Регистрация",
+    "authTitle": "Вход",
+    "cancelBtnText": "Отмена",
+    "emailText": "Ваш e-mail",
+    "rememberMeText": "Запомнить меня",
+    "emptyFormText": "Поля формы не заполнены",
+    "passText": "Ваш пароль",
+    "errText": "Неверный пароль или e-mail",
+    "errAuthText": "Такой пользователь уже существует",
+    "emailError": "Неккоректный e-mail",
+    "passError": "Пароль должен содержать от 6 до 15 символов, включая как минимум одну строчную букву, одну заглавную букву, одну цифру и один спец символ"
+  },
+  "toolbar": {
+    "logoTitle": "Главная",
+    "buttons": {
+      "menu": {
+        "title": "Меню"
+      },
+      "save": {
+        "title": "Сохранить"
+      },
+      "newLayout": {
+        "title": "Новый проект"
+      },
+      "chooseObject": {
+        "title": "Выбрать объект"
+      },
+      "drawWall": {
+        "title": "Построить стену"
+      },
+      "incGrid": {
+        "title": "Увеличить"
+      },
+      "decGrid": {
+        "title": "Уменьшить"
+      },
+      "showGrid": {
+        "title": "Сетка"
+      },
+      "userMenu": {
+        "title": "Мой кабинет",
+        "userLoginText": "Вход",
+        "userRegText": "Регистрация",
+        "userSettingsText": "Настройки",
+        "userLogoutText": "Выход"
+      },
+      "changeLangMenu": {
+        "title": "Выбор языка",
+        "ruText": "Русский",
+        "enText": "Английский",
+        "uaText": "Украинский"
+      }
+    }
+  },
+  "elements": {
+    "wall": {
+      "title": "Стена",
+      "props": {
+        "fill": "Цвет",
+        "width": "Ширина",
+        "length": "Длина"
+      }
+    },
+    "double-door": {
+      "title": "Двойные двери",
+      "props": {
+        "width": "Ширина",
+        "position": "Позиция открытия двери",
+        "top": "Вверх",
+        "bottom": "Вниз",
+        "max-width": "Максимальна ширина"
+      }
+    },
+    "sliding-door": {
+      "title": "Раздвижные двери",
+      "props": {
+        "width": "Ширина",
+        "max-width": "Максимальна ширина"
+      }
+    },
+    "simple-door": {
+      "title": "Дверь",
+      "props": {
+        "width": "Ширина",
+        "position": "Расположение двери",
+        "left": "Слева",
+        "right": "Справа",
+        "direction": "Направление открытия двери",
+        "top": "Внутрь",
+        "bottom": "Наружу",
+        "max-width": "Максимальная ширина"
+      }
+    },
+    "window": {
+      "title": "Окно",
+      "props": {
+        "width": "Ширина",
+        "max-width": "Максимальна ширина"
+      }
+    }
+  }
+}

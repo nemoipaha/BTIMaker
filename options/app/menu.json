@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "id": "rooms",
+      "icon": "images/icons/rooms/simple-room.png"
+    },
+    {
+      "id": "roomElements",
+      "icon": "images/icons/rooms/room.png",
+      "subCategories": [
+        {
+          "id": "doors",
+          "icon": "images/icons/doors/door.png"
+        },
+        {
+          "id": "windows",
+          "icon": "images/icons/windows/window.png"
+        }
+      ]
+    },
+    {
+      "id": "technics",
+      "icon": "images/icons/technics/tv.png"
+    },
+    {
+      "id": "furniture",
+      "icon": "images/icons/furniture/furniture.png"
+    }
+  ]
+}

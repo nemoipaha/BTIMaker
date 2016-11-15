@@ -1,0 +1,174 @@
+{
+  "editPropsDlg": {
+    "cancelBtnText": "Скасувати",
+    "title": "Редагувати"
+  },
+  "paperOptions": {
+    "wall-sel-min": "Адаптивність об'єктів на стіні",
+    "static-real-step": "Кількість пікселів на одиницю розміру сітки",
+    "grid": "Сітка",
+    "is-fixed": "Зафіксовано",
+    "draw-mode": "Режим малювання",
+    "mesh-step": "Крок сітки",
+    "width": "Ширина",
+    "height": "Висота"
+  },
+  "tabs": {
+    "title": "Тестовий проект",
+    "cancelBtnText": "Скасувати",
+    "delText": "Ви впевнені?"
+  },
+  "menu": {
+    "names": {
+      "rooms": "Кімнати",
+      "roomElements": "Елементи кімнати",
+      "doors": "Двері",
+      "windows": "Вікна",
+      "technics": "Техніка",
+      "furniture": "Меблі",
+      "room": "Стандартна кімната",
+      "simple-door": "Двері",
+      "double-door": "Подвійні двері",
+      "sliding-door": "Розсувні двері",
+      "window": "Вікно",
+      "error": "Об'єкт не завантажено",
+      "createObjectError": "Неможливо створити об'єкт"
+    }
+  },
+  "saveDlg": {
+    "title": "Зберегти",
+    "cancelBtnText": "Скасувати",
+    "labelText": "Оберіть проекти"
+  },
+  "userSettingsDlg": {
+    "title": "Налаштування",
+    "dellBtnText": "Видалити",
+    "projectsTittleText": "Мої проекти",
+    "searchText": "Пошук",
+    "deleteAll": "Відзначити все",
+    "delete": "Видалити",
+    "nameCol": "Им'я",
+    "valCol": "Значення"
+  },
+  "newTabDlg": {
+    "cancelBtnText": "Скасувати",
+    "title": "Додати проект",
+    "widthText": "Ширина",
+    "nameText": "Ім'я",
+    "heightText": "Висота",
+    "isFixedText": "Зафіксувати",
+    "meshStepText": "Крок сітки",
+    "static-real-step": "Кількість пікселів на одиницю розміру сітки",
+    "emptyFieldErrorText": "Необхідно ввести ім'я проекту",
+    "uniqueNameErrorText": "Таке им`я вже існує",
+    "wallSelText": "Адаптивність об'єктів на стіні"
+  },
+  "propDlg": {
+    "saveBtnText": "Зберегти",
+    "cancelBtnText": "Скасувати",
+    "title": "Властивості",
+    "resetBtnText": "Повернути"
+  },
+  "authRegDlg": {
+    "regTitle": "Реєстрація",
+    "authTitle": "Вхід",
+    "cancelBtnText": "Скасувати",
+    "emailText": "Ваш e-mail",
+    "rememberMeText": "Запам'ятати мене",
+    "emptyFormText": "Поля форми не заповнені",
+    "passText": "Ваш пароль",
+    "errText": "Невірний пароль або e-mail",
+    "errAuthText": "Такий користувач вже існує",
+    "emailError": "Некоректний e-mail",
+    "passError": "Пароль повинен містити від 6 до 15 символів, включаючи як мінімум одну малу літеру, одну велику літеру, одну цифру і один спец символ"
+  },
+  "toolbar": {
+    "logoTitle": "Головна",
+    "buttons": {
+      "menu": {
+        "title": "Меню"
+      },
+      "save": {
+        "title": "Зберегти"
+      },
+      "newLayout": {
+        "title": "Новий проект"
+      },
+      "chooseObject": {
+        "title": "Обрати об'єкт"
+      },
+      "drawWall": {
+        "title": "Побудувати стіни"
+      },
+      "incGrid": {
+        "title": "Збільшити"
+      },
+      "decGrid": {
+        "title": "Зменьшити"
+      },
+      "showGrid": {
+        "title": "Сітка"
+      },
+      "userMenu": {
+        "title": "Мій кабінет",
+        "userLoginText": "Вхід",
+        "userRegText": "Реєстрація",
+        "userSettingsText": "Налаштування",
+        "userLogoutText": "Вихід"
+      },
+      "changeLangMenu": {
+        "title": "Вібир мови",
+        "ruText": "Російська",
+        "enText": "Англійська",
+        "uaText": "Українська"
+      }
+    }
+  },
+  "elements": {
+    "wall": {
+      "title": "Стіна",
+      "props": {
+        "fill": "Колір",
+        "width": "Ширина",
+        "length": "Довжина"
+      }
+    },
+    "double-door": {
+      "title": "Подвійні двері",
+      "props": {
+        "width": "Ширина",
+        "position": "Позиція відкривання дверей",
+        "top": "Вгору",
+        "bottom": "Вниз",
+        "max-width": "Максимальна ширина"
+      }
+    },
+    "sliding-door": {
+      "title": "Розсувні двері",
+      "props": {
+        "width": "Ширина",
+        "max-width": "Максимальна ширина"
+      }
+    },
+    "simple-door": {
+      "title": "Двері",
+      "props": {
+        "width": "Ширина",
+        "position": "Розташування дверей",
+        "left": "Зліва",
+        "right": "Справа",
+        "direction": "Напрямок відкривання дверей",
+        "top": "Всередину",
+        "bottom": "Назовні",
+        "max-width": "Максимальна ширина"
+      }
+    },
+    "window": {
+      "title": "Вікно",
+      "props": {
+        "width": "Ширина",
+        "max-width": "Максимальна ширина"
+      }
+    }
+  }
+}

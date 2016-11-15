@@ -1,0 +1,112 @@
+.prop-dialog {
+  display: none;
+  box-shadow: 0 14px 45px rgba(0,0,0,0.25), 0 10px 18px rgba(0,0,0,0.22);
+  border-radius: 2px;
+  width: 450px;
+  height: 350px;
+  position: absolute;
+  z-index: 3;
+  background: #fff;
+  right: 25px;
+  top: 25px;
+  margin: 15px 25px;
+  font-size:16px;
+  td:first-child{
+    border-bottom: 2px solid tomato;
+    color:black;
+    font-style: bold;
+  }
+  td:nth-child(2){
+    border-bottom: 2px solid cadetblue;
+  }
+  td:last-child{
+    text-align: center;
+  }
+  input {
+    border:none;
+    background: none;
+    color:grey;
+  }
+  .edit-btn{
+      display:inline-block;
+      width:24px;
+      height:24px;
+      background: url('../images/update.png');
+      opacity: 0.5;
+      cursor:pointer;
+  }
+  .edit-btn:hover{
+    opacity: 0.9;
+  }
+  .content {
+    padding: 15px;
+    background: #fff;
+    .elem-props {
+      > div {
+        padding: 10px;
+      }
+    }
+  }
+  .header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px  10px 20px;
+    color: rgba(0,0,0,.85);
+    font-size: 15px;
+    line-height: 20px;
+    .title {
+      cursor: move;
+      > div {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .elem-icon {
+        border: 1px solid #ddd;
+        background: #fff;
+        margin-right: 15px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+    .elem-desc {
+       float:right;
+      > div {
+        margin:25px 5px;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .footer {
+    text-align: right;
+    padding: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    .btn {
+      margin-left: 5px;
+    }
+  }
+  .close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .15s ease-out;
+    &:hover {
+      i {
+        color: red;
+        opacity: 0.4;
+      }
+    }
+    i {
+      opacity: 0.75;
+    }
+  }
+}

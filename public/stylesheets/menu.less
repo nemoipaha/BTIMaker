@@ -1,0 +1,178 @@
+@sidebar-backgr: #242424;
+@sidebar-transition: left .3s ease-in-out;
+@sidebar-scroll-backgr: #B03C3F;
+@sidebar-width: 4px;
+
+@toolbarHeight: 56px;
+
+@item-color: #aaa;
+@item-border: 1px solid #2d2d2d;
+@item-active-color: #F2BE35;
+@item-left-padding: 50px;
+@item-font-size: 14px;
+@item-font-family: 'Roboto', sans-serif;
+@item-icon-width: 28px;
+@item-icon-height: @item-icon-width;
+@item-transition: background-color .15s ease-in-out,
+border-color .15s ease-in-out, color .15s ease-in-out;
+@item-open-backgr: #161616;
+@item-hover-backgr: #1e1e1e;
+@ul-subitem-backgr: #313131;
+@item-font-weight: 300;
+
+.sidebar {
+  padding: 0;
+  display: none;
+  width: 270px;
+  height: 100%;
+  font-size: @item-font-size;
+  font-weight: @item-font-weight;
+  background: @sidebar-backgr;
+  color: @item-color;
+  position: fixed;
+  z-index: 100;
+  transition: @sidebar-transition;
+  overflow-y: hidden;
+  .logo {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 10px 0 20px;
+    //border: 1px solid red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: @sidebar-width;
+    border: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: @sidebar-scroll-backgr;
+    border: none;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1);
+  }
+  .menu-container {
+    position: relative;
+    overflow-y: auto;
+    height: inherit;
+    > ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: 13px;
+        background-color: @ul-subitem-backgr;
+        li > a {
+          padding-left: @item-left-padding;
+        }
+        &:before {
+          content: "";
+          display: block;
+          padding-top: 10px;
+        }
+        &:after {
+          content: "";
+          display: block;
+          padding-bottom: 10px;
+        }
+      }
+      > li {
+        > a {
+          border-top: @item-border;
+        }
+      }
+      li {
+        > a {
+          line-height: 35px;
+          height: 35px;
+          overflow: hidden;
+          display: block;
+          padding-left: @item-left-padding;
+          color: @item-color;
+          transition: @item-transition;
+          text-decoration: none;
+          position: relative;
+          cursor: pointer;
+          &:hover {
+            background-color: @item-hover-backgr;
+          }
+          .icon {
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: 11px;
+            width: @item-icon-width;
+            height: @item-icon-height;
+            line-height: 28px;
+            text-align: center;
+            img {
+              width: @item-icon-width;
+              height: @item-icon-height;
+            }
+          }
+          .toggle {
+            transform: rotate(90deg);
+            float: right;
+            line-height: 35px;
+            margin-right: 15px;
+            transition: transform .35s ease;
+          }
+        }
+      }
+      .active {
+        > a {
+          //color: @item-active-color;
+          color: #fff;
+          background-color: @item-open-backgr;
+          .icon {
+            border-radius: 50%;
+            //background-color: @item-active-color;
+            background-color: #fff;
+          }
+          .toggle {
+            transform: rotate(0deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+.in {
+  display: block;
+}
+
+.collapse {
+  display: none;
+}
+.dnd {
+  //border: 1px solid red;
+  min-height: 50px;
+  min-width: 50px;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  display: none;
+  img {
+    width: 65px;
+    height: 65px;
+  }
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}

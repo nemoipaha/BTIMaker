@@ -1,0 +1,23 @@
+{
+  "image": "images/icons/doors/simple-door.png",
+  "props": [
+    {
+      "type": "number",
+      "key": "width"
+    },
+    {
+      "type": "combobox",
+      "key": "direction",
+      "values": ["top" ,"bottom"]
+    },
+    {
+      "type": "combobox",
+      "key":  "position",
+      "values": ["left", "right"]
+    },
+    {
+      "type": "number",
+      "key": "max-width"
+    }
+  ]
+}

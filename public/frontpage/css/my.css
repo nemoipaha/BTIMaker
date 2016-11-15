@@ -1,0 +1,29 @@
+body {
+  background: #eee;
+}
+.img-container {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: auto;
+  padding: 15px;
+  background: #fff;
+  text-align: center;
+}
+.img-container img {
+  max-width: 100%;
+}
+.main {
+  padding: 30px;
+}
+.user-label {
+  float: right;
+  color: #000;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/roboto/Roboto-Thin.ttf");
+}
+.user-menu {
+  cursor: pointer;
+}

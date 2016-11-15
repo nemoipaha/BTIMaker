@@ -1,0 +1,24 @@
+{
+  "title":"BTIMaker",
+  "port": "228",
+  "mongoose": {
+    "uri": "mongodb://127.0.0.1:27017/BTIMaker",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "secret": "bti",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  },
+  "cookieExpires": "432000000"
+}

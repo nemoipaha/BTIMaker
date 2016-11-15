@@ -1,0 +1,57 @@
+{
+  "iconOpacity": 0.3,
+  "angleDeviation": -45,
+  "typeImageArray": ["png", "svg", "jpg", "bmp", "icon"],
+  "styles": {
+    "marginTop": 40,
+    "marginLeft": 40,
+    "circle": {
+      "onDrag": {
+        "fill": "hsb(.8, 1, 1)",
+        "opacity": 0.25
+      },
+      "fill": "red",
+      "opacity": 0.5,
+      "stroke": "none"
+    },
+    "path": {
+      "onDrag": {
+        "fill": "rgba(1, 1, 1, .5)",
+        "stroke": "none"
+      },
+      "hover_color_in": "rgba(255, 255, 255, .9)",
+      "hover_color_out": "rgba(255, 255, 255, .5)",
+      "fill": "rgba(255, 255, 255, .5)",
+      "stroke": "none"
+    },
+    "image": {
+      "onDrag": {
+        "fill": "rgba(1, 0, 0, .5)"
+      },
+      "hover_opacity_in": 0.8,
+      "hover_opacity_out": 0.3
+    }
+  },
+  "iconButtonArray": [
+    {
+      "icon": "/images/arrow-menu.png",
+      "type": "top",
+      "startRotationIconAngle": 270
+    },
+    {
+      "icon": "/images/arrow-menu.png",
+      "type": "right",
+      "startRotationIconAngle": 0
+    },
+    {
+      "icon": "/images/arrow-menu.png",
+      "type": "bottom",
+      "startRotationIconAngle": 90
+    },
+    {
+      "icon": "/images/arrow-menu.png",
+      "type": "left",
+      "startRotationIconAngle": "180"
+    }
+  ]
+}

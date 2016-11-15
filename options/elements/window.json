@@ -1,0 +1,13 @@
+{
+  "image": "images/icons/doors/double-door.png",
+  "props": [
+    {
+      "type": "number",
+      "key": "width"
+    },
+    {
+      "type": "number",
+      "key": "max-width"
+    }
+  ]
+}

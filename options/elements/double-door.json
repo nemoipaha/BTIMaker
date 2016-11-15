@@ -1,0 +1,18 @@
+{
+  "image": "images/icons/doors/double-door.png",
+  "props": [
+    {
+      "type": "number",
+      "key": "width"
+    },
+    {
+      "type": "combobox",
+      "key": "position",
+      "values": ["top" ,"bottom"]
+    },
+    {
+      "type": "number",
+      "key": "max-width"
+    }
+  ]
+}

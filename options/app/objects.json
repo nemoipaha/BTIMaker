@@ -1,0 +1,173 @@
+{
+  "room": {
+    "icon": "images/icons/rooms/simple-room.png",
+    "categoryId": "rooms",
+    "fill":"Tan"
+  },
+  "service-button":{
+    "stroke": "#181818",
+    "stroke-width": "1.5",
+    "fill": "#FAFAFA",
+    "radius":"12",
+    "type-images": {
+      "remove-box": "/images/remove.png",
+      "hide-box": "/images/hide.png",
+      "direction-box": "/images/door.png",
+      "edit-box":"/images/edit.png",
+      "curved-box": "/images/curved.png",
+      "translate-start-box": "/images/arrow.png",
+      "translate-end-box": "/images/arrow.png"
+    }
+  },
+  "description-line":{
+    "thickness":"18",
+    "text":{
+      "font-size":"13"
+    },
+    "main":{
+      "stroke-width":"1.2",
+      "arrow-start": "block-midium-midium",
+      "arrow-end": "block-midium-midium",
+      "height":"0.8"
+    },
+    "sub":{
+      "stroke-width":"1",
+      "stroke-linejoin": "bevel",
+      "height":"1"
+    }
+  },
+  "service-wall":{
+    "circle":{
+      "opacity":"0.7",
+      "stroke-width":"2",
+      "stroke":"tomato"
+    },
+    "wall":{
+      "stroke":"#5F9EA0",
+      "stroke-hover":"red",
+      "padding":"1.5"
+    }
+  },
+  "point":{
+    "radius": "3",
+    "stroke": "#454545",
+    "fill": "#5F9EA0",
+    "hover-fill": "#000",
+    "stroke-width": "2",
+    "cursor":"pointer",
+    "near-line":{
+      "stroke-width":"1",
+      "fill":"#000",
+      "arrow-start": "block-midium-midium",
+      "arrow-end": "oval-narrow-short"
+    }
+  },
+  "wall":{
+    "thickness":"6",
+    "stroke-width":"1",
+    "stroke":"#454545",
+    "fill":"#858585",
+    "hover-fill":"tomato",
+    "stroke-hover":"#FF6347",
+    "text":{
+      "padding":"8",
+      "font-size":"12"
+    }
+  },
+  "sliding-door":{
+    "icon": "images/icons/doors/sliding-door.png",
+    "categoryId": "doors",
+    "width":"50",
+    "min-width":"30",
+    "main-rect":{
+      "fill":"#E4DDD8",
+      "hover-fill":"#4CAE50",
+      "selected-fill":"#2195F2"
+    },
+    "door-connection":{
+      "fill":"#5F9EA0",
+      "hover-fill":"#484848",
+      "width":"5",
+      "height":"2"
+    },
+    "door-line":{
+      "stroke-width": "2",
+      "stroke":"#303030",
+      "hover-stroke":"#fff",
+      "arrow-start": "block-midium-midium",
+      "arrow-end": "oval-narrow-short"
+    }
+  },
+  "window":{
+    "icon": "images/icons/windows/window.png",
+    "categoryId": "windows",
+    "width":"60",
+    "min-width":"30",
+    "main-rect":{
+      "fill":"#E4DDD8",
+      "hover-fill":"#4CAE50",
+      "selected-fill":"#2195F2"
+    },
+    "height":"0.5",
+    "window-connection":{
+      "fill":"#5F9EA0",
+      "hover-fill":"#181818",
+      "min-width":"10"
+    },
+    "window-box":{
+      "fill":"#FFF"
+    }
+  },
+  "double-door":{
+    "icon": "images/icons/doors/double-door.png",
+    "categoryId": "doors",
+    "width":"50",
+    "min-width":"36",
+    "main-rect":{
+      "fill":"#E4DDD8",
+      "hover-fill":"#4CAE50",
+      "selected-fill":"#2195F2"
+    },
+    "door-connection":{
+      "fill":"#5F9EA0",
+      "hover-fill":"#484848",
+      "width":"5",
+      "height":"2"
+    },
+    "door-line":{
+      "stroke-width": "2",
+      "stroke":"#000"
+    },
+    "door-curve":{
+      "arrow-start": "block-midium-midium",
+      "arrow-end": "block-midium-midium",
+      "stroke-dasharray": "- "
+    }
+  },
+  "simple-door": {
+    "icon": "images/icons/doors/simple-door.png",
+    "categoryId": "doors",
+    "width":"50",
+    "min-width":"30",
+    "main-rect":{
+      "fill":"#E4DDD8",
+      "hover-fill":"#4CAE50",
+      "selected-fill":"#2195F2"
+    },
+    "door-connection":{
+      "fill":"#5F9EA0",
+      "hover-fill":"#484848",
+      "width":"5",
+      "height":"2"
+    },
+    "door-line":{
+      "stroke-width": "2",
+      "stroke":"#000"
+    },
+    "door-curve":{
+      "arrow-start": "block-midium-midium",
+      "arrow-end": "block-midium-midium",
+      "stroke-dasharray": "- "
+    }
+  }
+}

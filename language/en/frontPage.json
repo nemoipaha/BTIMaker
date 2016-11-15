@@ -1,0 +1,37 @@
+{
+  "logout": "Exit",
+  "hello": "Welcome",
+  "userAuth": "Sign in",
+  "userReg": "Sign up",
+  "firstTitle": "About BTIMaker",
+  "firstText": "BTIMaker is used for planning the apartment allows you to quickly make 2D and 3D - model space on your PC or laptop.",
+  "secondTitle": "Personal projects",
+  "secondText": "Sign up and get the possibility to save and print the floor plan.",
+  "thirdTitle": "Setting",
+  "thirdText": "Store and edit your projects, create any number of new projects with their parameters.",
+  "about": "Before the start of construction or repair home to do a layout of all the rooms and facilities. The use of information technology can significantly reduce the time to design and provide the ability to print the plan. With the program for the layout of the apartment you can easily solve various tasks for creating a cozy interior, ranging from placing on the plan on the scale of the rooms, bathrooms, kitchen, hallway and other rooms, exterior and interior of the apartment.",
+  "createProject": "Create project",
+  "header": "Planner BTIMaker",
+  "contactTitle": "Our work",
+  "footerHeader": "About us",
+  "footerText": "The finished result in the interior design program is presented in the form of virtual surround the layout, which will consider the characteristics of the future interior details, appreciate it. All changes can be viewed in real time.",
+  "footerLabel": "Copyright 2016",
+  "authRegDlg": {
+    "regTitle": "Sign up",
+    "authTitle": "Sign in",
+    "cancelBtnText": "Cancel",
+    "emailText": "E-mail",
+    "passText": "Password",
+    "rememberMeText": "Remember me",
+    "emptyFormText": "Empty fields",
+    "errAuthText": "User exists",
+    "errText": "Wrong password or e-mail",
+    "emailError": "Wrong e-mail",
+    "passError": "Password must contain min 6 characters, 1 special symbol and numbers"
+  },
+  "langMenu": {
+    "en": "English",
+    "ua": "Ukrainian",
+    "ru": "Russian"
+  }
+}

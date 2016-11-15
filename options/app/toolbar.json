@@ -1,0 +1,24 @@
+{
+  "logoIcon": "images/logo/logo.png",
+  "langMenuIcon": "images/lang/ru.png",
+  "buttons": {
+    "userMenu": {
+      "defaultItems": [
+        { "id": "login" },
+        { "id": "registration" }
+      ],
+      "userItems": [
+        { "id": "settings" },
+        { "id": "logout" }
+      ]
+    },
+    "changeLanguageMenu": {
+      "items": [
+        { "id": "en", "img": "images/lang/en.png" },
+        { "id": "ua", "img": "images/lang/ua.png" },
+        { "id": "ru", "img": "images/lang/ru.png" }
+      ]
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+{
+  "min-real-scale": {
+    "height": "480",
+    "width": "600"
+  },
+  "mesh":{
+    "distance": "5",
+    "step": "10"
+  },
+  "range":{
+    "min":"0.5",
+    "max":"3",
+    "step":"0.25"
+  },
+  "draw":{
+    "line": {
+      "mesh": {
+        "main": "#303030",
+        "sub": "#5D8FC2"
+      },
+      "stroke-width": "2",
+      "opacity": "0.2",
+      "padding": "8"
+    },
+    "text": {
+      "font-family": "Open Sans",
+      "font-size": "10",
+      "stroke": "#454545"
+    }
+  }
+}

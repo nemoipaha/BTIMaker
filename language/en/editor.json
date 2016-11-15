@@ -1,0 +1,175 @@
+{
+  "editPropsDlg": {
+    "cancelBtnText": "Cancel",
+    "title": "Edit"
+  },
+  "paperOptions": {
+    "wall-sel-min": "Adaptability of objects on the walls",
+    "static-real-step": "Pixels count on grid one`s",
+    "grid": "Grid",
+    "draw-mode": "Draw mode",
+    "is-fixed": "is-fixed",
+    "mesh-step": "mesh-step",
+    "width": "width",
+    "height": "height"
+  },
+  "tabs": {
+    "title": "Test project",
+    "cancelBtnText": "Cancel",
+    "delText": "Are you sure?"
+  },
+  "menu": {
+    "names": {
+      "rooms": "Rooms",
+      "roomElements": "Room elements",
+      "doors": "Doors",
+      "windows": "Windows",
+      "technics": "Technics",
+      "furniture": "Furniture",
+      "room": "Simple room",
+      "simple-door": "Door",
+      "double-door": "Double door",
+      "sliding-door": "Sliding door",
+      "window": "Window",
+      "error": "Object isn`t loaded",
+      "createObjectError": "Can`t create an object"
+    }
+  },
+  "saveDlg": {
+    "title": "Save",
+    "cancelBtnText": "Cancel",
+    "labelText": "Choose projects"
+  },
+  "userSettingsDlg": {
+    "title": "Settings",
+    "dellBtnText": "Delete",
+    "projectsTittleText": "My projects",
+    "searchText": "Search",
+    "deleteAll": "Mark all",
+    "delete": "Delete",
+    "nameCol": "Name",
+    "valCol": "Value"
+  },
+  "newTabDlg": {
+    "cancelBtnText": "Cancel",
+    "title": "New project",
+    "widthText": "Width",
+    "nameText": "Name",
+    "heightText": "Height",
+    "isFixedText": "Fixed",
+    "meshStepText": "Grid step",
+    "static-real-step": "Pixels count on grid one`s",
+    "emptyFieldErrorText": "Enter project name",
+    "uniqueNameErrorText": "Name must be unique",
+    "wallSelText": "Adaptability of objects on the walls"
+  },
+  "propDlg": {
+    "saveBtnText": "Save",
+    "cancelBtnText": "Cancel",
+    "title": "Properties",
+    "resetBtnText": "Reset"
+  },
+  "authRegDlg": {
+    "regTitle": "Sign up",
+    "authTitle": "Sign in",
+    "cancelBtnText": "Cancel",
+    "emailText": "E-mail",
+    "passText": "Password",
+    "rememberMeText": "Remember me",
+    "emptyFormText": "Empty fields",
+    "errAuthText": "User exists",
+    "errText": "Wrong password or e-mail",
+    "emailError": "Wrong e-mail",
+    "passError": "Password must contain min 6 characters, 1 special symbol and numbers"
+  },
+  "toolbar": {
+    "logoTitle": "Home",
+    "buttons": {
+      "menu": {
+        "title": "Menu"
+      },
+      "save": {
+        "title": "Save"
+      },
+      "newLayout": {
+        "title": "New project"
+      },
+      "chooseObject": {
+        "title": "Choose object"
+      },
+      "drawWall": {
+        "title": "Draw wall"
+      },
+      "incGrid": {
+        "title": "Zoom in"
+      },
+      "decGrid": {
+        "title": "Zoom out"
+      },
+      "showGrid": {
+        "title": "Grid"
+      },
+      "userMenu": {
+        "title": "Cabinet",
+        "userLoginText": "Sign in",
+        "userRegText": "Sign up",
+        "userSettingsText": "Settings",
+        "userLogoutText": "Logout"
+      },
+      "changeLangMenu": {
+        "title": "Language",
+        "ruText": "Russian",
+        "enText": "English",
+        "uaText": "Ukrainian"
+      }
+    }
+  },
+  "elements": {
+    "wall": {
+      "title": "Wall",
+      "props": {
+        "fill": "Color",
+        "width": "Width",
+        "length": "Length"
+      }
+    },
+    "double-door": {
+      "title": "Double door",
+      "props": {
+        "width": "Width",
+        "position": "The direction of the door opening",
+        "top": "Top",
+        "bottom": "Bottom",
+        "max-width": "Max length"
+      }
+    },
+    "sliding-door": {
+      "title": "Sliding Door",
+      "props": {
+        "width": "Width",
+        "max-width": "Max length"
+      }
+    },
+    "simple-door": {
+      "title": "Door",
+      "props": {
+        "width": "Width",
+        "direction": "The direction of the door",
+        "left": "Left",
+        "right": "Right",
+        "position": "The position of the door opening",
+        "top": "Top",
+        "bottom": "Bottom",
+        "max-width": "Max length"
+      }
+    },
+    "window": {
+      "title": "Window",
+      "props": {
+        "width": "Width",
+        "max-width": "Max length"
+      }
+    }
+  }
+}
+
