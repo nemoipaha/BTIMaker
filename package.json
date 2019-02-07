@@ -17,7 +17,7 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "express-logger": "^0.0.3",
-    "express-winston": "^1.2.0",
+    "express-winston": "^2.5.0",
     "validator": "^5.2.0",
     "react-color": "^2.0.0",
     "morgan": "^1.7.0",
