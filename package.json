@@ -18,7 +18,7 @@
     "express": "^4.13.4",
     "express-logger": "^0.0.3",
     "express-winston": "^1.2.0",
-    "validator": "^5.2.0",
+    "validator": "^13.6.0",
     "react-color": "^2.0.0",
     "morgan": "^1.7.0",
     "nconf": "^0.8.4",
